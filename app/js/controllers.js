@@ -8,45 +8,103 @@ function contratame($scope){
 
   $scope.personas = [
     {
-    	'nombre':'Pepito Perez',
+    	'nombre':'Andres Reyes',
     	'descripcion':'Trabaje en wall street pero ahora me dedico a lo que mas me gusta: LA PLOMERIA!!!!!',
-    	'trabajos':['fasf','fff','fdf','afsdf'],
+    	'trabajos':['chapinero alto','Alameda'],
     	'foto':'/app/img/media/fotos/plomero-1.jpg',
         'trabajo':'plomero'
     },
 
     {
-    	'nombre':'Pepito Perez 2',
+    	'nombre':'Juan Perez',
     	'descripcion':'Trabajo como plomero hace 150 anyos',
-    	'trabajos':['fasf','fff','fdf','afsdf'],
+    	'trabajos':['chapinero alto','Alameda'],
     	'foto':'/app/img/media/fotos/plomero-2.jpg',
-        'trabajo':'Electricista'
+        'trabajo':'plomero'
     },
 
     {
-    	'nombre':'Pepito Perez 3',
+    	'nombre':'Ivan Roa',
     	'descripcion':'Trabajo como plomero hace 150 anyos',
-    	'trabajos':['fasf','fff','fdf','afsdf'],
+    	'trabajos':['chapinero alto','Alameda'],
     	'foto':'/app/img/media/fotos/plomero-3.jpg',
-        'trabajo':'Carpintero'
+        'trabajo':'plomero'
     },
 
 
     {
-        'nombre':'Pepito Perez',
-        'descripcion':'Trabaje en wall street pero ahora me dedico a lo que mas me gusta: LA PLOMERIA!!!!!',
-        'trabajos':['fasf','fff','fdf','afsdf'],
-        'foto':'/app/img/media/fotos/plomero-1.jpg',
-        'trabajo':'Maestro'
+        'nombre':'Julian Cruz',
+        'descripcion':'10 años de Experiencia',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/electricista-1.jpg',
+        'trabajo':'electricista'
+    },
+
+    {
+        'nombre':'Oscar Cortes',
+        'descripcion':'Serio, Tecnico del Sena',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/electricista-2.jpg',
+        'trabajo':'electricista'
+    },
+
+    {
+        'nombre':'Carlos Poveda',
+        'descripcion':'Me gusta la Electricidad y la Electronica',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/electricista-3.jpg',
+        'trabajo':'electricista'
     },
 
 
+    {
+        'nombre':'Andres Angulo',
+        'descripcion':'La madera es mi vida',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/carpintero-1.jpg',
+        'trabajo':'carpintero'
+    },
+
+    {
+        'nombre':'Andrea Marquez',
+        'descripcion':'Toda mi familia ha sido carpinteros, soy el legado de una tradicion',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/carpintero-2.jpg',
+        'trabajo':'carpintero'
+    },
+
+    {
+        'nombre':'Vicente Rodriguez',
+        'descripcion':'Trabajo con Madera y Metal',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/carpintero-3.jpg',
+        'trabajo':'carpintero'
+    },
 
 
+    {
+        'nombre':'Pedro Perez',
+        'descripcion':'Cumplido',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/maestro-1.jpg',
+        'trabajo':'Maestro de Construccion'
+    },
 
+    {
+        'nombre':'Mario Bernal',
+        'descripcion':'Quedara muy satisfecho con mi trabajo',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/maestro-2.jpg',
+        'trabajo':'Maestro de Construccion'
+    },
 
-
-
+    {
+        'nombre':'Roberto Mercado',
+        'descripcion':'Muy Puntial',
+        'trabajos':['chapinero alto','Alameda'],
+        'foto':'/app/img/media/fotos/maestro-3.jpg',
+        'trabajo':'Maestro de Construccion'
+    },
   ]
 
 }
