@@ -1,1 +1,74 @@
-<p>This is the partial for view 1.</p>
+    <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">
+        <img width="50%" height="50%" src="/app/img/media/fotos/logo.jpg">
+      </a>
+      <ul class="nav">
+        <li class="active"><a href="#">Opcion 1</a></li>
+        <li><a href="#">Opcion 2</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid" >
+    <div class="row-fluid">
+    <div class="span8 offset2" >
+
+     <div class="row-fluid">
+        <div class="span12">
+          <select class="input-block-level" ng-model="currentJob">
+            <option ng-repeat="trabajo in trabajos">{{trabajo}}<option>
+          </select>
+        </div>
+     </div> 
+    </div>
+    </div> 
+  </div> 
+  
+  <div class="container-fluid" >
+    <div class="row-fluid">
+    <div class="span8 offset2">
+    
+    <div class="row-fluid" ng-repeat="persona in personas|filter:currentJob" style="border:solid;border-width:1px; margin:1ex;">
+      <div class="span3">
+        <ul class="thumbnails"  style="margin-top:25px;" >
+          <li class="span8 offset2">
+            <a href="#" class="thumbnail">
+              <img  src="{{persona.foto}}" alt="">
+            </a>
+            <div class="offset3">
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star"></i>
+              <i class="icon-star-empty"></i>
+              <i class="icon-star-empty"></i></div>
+          </li>
+        </ul>
+      </div>
+        <div class="span8">
+          <h2>
+             {{persona.nombre}}
+          </h2>
+          <p>
+            {{persona.descripcion}}
+          </p>
+
+          <h3> Mis ultimos trabajos </h3>
+
+          <div class="row-fluid">
+            <div class="span10">
+              <ul>
+                <li ng-repeat="trabajo in persona.trabajos">{{trabajo}}</li>
+              </ul>
+            </div>
+            <div class="span2">
+              <a class="btn btn-large" href="#opcion2">Contratame</a>
+            </div>
+          </div>  
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
